@@ -8,19 +8,22 @@ I'm a final-year Computer Science student who builds full-stack web apps and is 
 ## Projects worth looking at
 
 ### 🤖 Inbox Copilot — AI Email Ranking System *(SOFTEC 2026 MVP)*
-Built this for SOFTEC 2026. The problem: CS students get flooded with opportunity emails — internships, competitions, events — and have no way to filter what actually matters to them. Inbox Copilot fixes that.
-
-You paste a batch of emails plus a student profile. The backend uses an LLM (Claude or Gemini) to extract structured fields from each email, then a deterministic ranking engine scores every opportunity by fit, urgency, and value. The frontend lets you load sample emails, fill your profile, and hit Analyze — results ranked instantly.
-
-Backend is FastAPI + Python, frontend is React + Vite. Falls back to a local extractor if no API key is configured, so the demo always works.
-
+Built for SOFTEC 2026.
+-Uses LLMs (Claude/Gemini) to extract structured data from emails
+-Ranks opportunities based on relevance, urgency, and value
+-Built with FastAPI + React + Vite
+-Includes fallback system (works without API keys)
 `Python` `FastAPI` `React` `Vite` `Claude API` `Gemini API` `AI/LLM` `JavaScript`
 → [Code](https://github.com/fatimanisar678/AI-email-system)
 
 ---
 
 ### ✍️ SignEase — Final Year Project *(In Progress)*
-My final year project. A full-stack application with a separate AI/ML module — frontend in React, backend in Node.js, and a Python layer handling the intelligent parts. Still building it, but the architecture is already more complex than most things I've shipped.
+My final year project. 
+Full-stack app with separate AI/ML module
+Frontend: React + TypeScript
+Backend: Node.js
+AI Layer: Python
 
 `React` `TypeScript` `Node.js` `Python` `AI/ML`
 → [Code](https://github.com/fatimanisar678/SignEase-main) *(Active development)*
@@ -28,10 +31,9 @@ My final year project. A full-stack application with a separate AI/ML module —
 ---
 
 ### 🏗️ Inventory Management System — Full-Stack Web App (Java MVC)
-A proper web-based inventory system built for an Enterprise Application Development course. Replaces the error-prone spreadsheet approach with a secure, real-time system with admin auth, product/category management, stock-in/stock-out tracking, and reporting.
-
-Clean MVC architecture: Servlets as controllers, JSP + HTML/CSS for views, DAO pattern for data access, MySQL for persistence, deployed on Apache Tomcat.
-
+A proper web-based inventory system built for an Enterprise Application Development course.
+Full Java MVC web app
+Admin auth, stock tracking, reporting
 `Java` `JSP` `Servlets` `MySQL` `JDBC` `Apache Tomcat` `MVC`
 → [Code](https://github.com/fatimanisar678/Inventory-Management-System-Java)
 
