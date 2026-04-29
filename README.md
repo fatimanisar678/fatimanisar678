@@ -1,7 +1,7 @@
 <img src="images/H (2).png" alt="banner" width="100%">
 
 # Hi, I'm Fatima 👋  
-🎓 Computer Science Student | 💻 Web Developer  
+Full-Stack Developer · AI Automation · MERN · FastAPI · LLMs
 
 I’m passionate about creating **modern, responsive web applications** and turning ideas into functional products.  
 Currently exploring the **MERN Stack** and **Advanced JavaScript**,  
